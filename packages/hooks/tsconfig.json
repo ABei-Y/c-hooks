@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.json", // 继承于根目录下的ts配置文件
+  "compilerOptions": {
+    "rootDir": "src", // 编译入口：src下的所有文件
+    "composite": true
+  }
+}

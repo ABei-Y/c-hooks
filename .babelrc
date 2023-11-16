@@ -1,0 +1,4 @@
+{
+  "presets": [["@babel/env"], "@babel/react"],
+  "plugins": ["@babel/plugin-transform-runtime"] // dumi的运行时插件
+}

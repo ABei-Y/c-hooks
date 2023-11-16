@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "dom"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "cassieHooks": ["./packages/hooks/src/index.ts"],
+      "cassie-hooks": ["./packages/hooks/src/index.ts"],
+      "cassieHooks/lib/*": ["./packages/hooks/src/*"],
+      "cassie-hooks/lib/*": ["./packages/hooks/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "importHelpers": true
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "example"]
+}
